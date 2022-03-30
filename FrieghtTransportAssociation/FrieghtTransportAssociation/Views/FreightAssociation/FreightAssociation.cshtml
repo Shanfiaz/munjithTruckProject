@@ -1,0 +1,1127 @@
+﻿
+@{
+    ViewBag.Title = "FreightAssociation";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<section>
+    <div>
+        <div class="text-right">
+            <img src="~/Content/Assets/Images/fta-logo.png" class="w-10 h-10" alt="logo" />
+            <p class="ls-3 text-uppercase">Freight Transport Association</p>
+        </div>
+        <div class="bg-dark text-white p-1">
+            <span>Recorder Code 4221</span>
+            <span class="float-right">VC10- Maintenance Inspection - Motor Vehicles</span>
+        </div>
+        <div class="border-2 mt-1 p-1 lh-1">
+            <div class="d-flex justify-content-evenly align-items-center flex-wrap">
+                <div class="w-50">
+                    <span>Company:</span>
+                    <span>Company Name</span>
+                </div>
+                <div class="w-25">
+                    <span>Make:</span>
+                    <span>Maker Name</span>
+                </div>
+                <div class="w-25">
+                    <span>Reg No:</span>
+                    <span>registration number</span>
+                </div>
+
+                <div class="w-50">
+                    <span>Address:</span>
+                    <span>Address</span>
+                </div>
+                <div class="w-25">
+                    <span>Model:</span>
+                    <span>Model Number</span>
+                </div>
+                <div class="w-25">
+                    <span>Fleet No:</span>
+                    <span>Fleet number</span>
+                </div>
+
+                <div class="w-50">
+                    <span>Body Type:</span>
+                    <span>Body Type</span>
+                </div>
+                <div class="w-25">
+                    <span>Odo Reading:</span>
+                    <span>.......................miles/km</span>
+                </div>
+                <div class="w-25">
+                    <span>Tax Expires:</span>
+                    <span></span>
+                </div>
+
+                <div class="w-50">
+                    <span>O-Licence Review:</span>
+                    <span>O-Licence Review</span>
+                </div>
+                <div class="w-25">
+                    <span>Year:</span>
+                    <span></span>
+                </div>
+                <div class="w-25">
+                    <span>Chasis No:</span>
+                    <span></span>
+                </div>
+                <div class="w-50">
+                    <span>Tachograph calibration date:</span>
+                    <span></span>
+                </div>
+                <div class="w-25">
+                    <span>Last 2 year test date:</span>
+                    <span></span>
+                </div>
+                <div class="w-25">
+                    <span>Inspection date:</span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+        <div>
+            <h3 class="text-center">Part 1: Inspection</h3>
+            <p>
+                <span class="lead">NOTE FOR INSPECTORS:</span>IM numbered items are to be checked in accordance with the
+                VOSA HGV Inspection
+                Manual. Check for correct operation, security and
+                freedom from excessive wear, maladjustment, damage, fracture, corrosion, oil, fluid and air leaks. Check
+                all hydraulic reservoirs for fluid level and possible fluid
+                contamination. Enter details of faults needing rectification in the space provided overleaf.
+            </p>
+        </div>
+        <div class="border-2 d-flex justify-content-evenly align-items-center">
+            <div><span>MARKING CODE (MC):</span></div>
+            <div><span>✓</span><span> = Serviceable</span></div>
+            <div><span>X = Item requiring attention</span></div>
+            <div><span>NC = Not checked</span></div>
+            <div><span>N/A = Not applicable</span></div>
+        </div>
+        <div class="d-flex justify-content-between mt-1">
+            <div class="w-100  mr-1">
+                <table class="table-border w-100">
+                    <thead>
+                        <tr>
+                            <th>INSIDE CAB</th>
+                            <th>MC</th>
+                            <th>IM NO</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>DIT plate - condition-details</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Speed Limiter plate - condition-details</td>
+                            <td></td>
+                            <td>33</td>
+                        </tr>
+                        <tr>
+                            <td>Seat belt and supplementary restraint system - condition</td>
+                            <td></td>
+                            <td>3</td>
+                        </tr>
+                        <tr>
+                            <td>Cab floor and steps</td>
+                            <td></td>
+                            <td>17</td>
+                        </tr>
+                        <tr>
+                            <td>Seats - condition-details</td>
+                            <td></td>
+                            <td>18</td>
+                        </tr>
+                        <tr>
+                            <td>Other seats and crew amenities</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Mirros - internal</td>
+                            <td></td>
+                            <td>22</td>
+                        </tr>
+                        <tr>
+                            <td>View to front</td>
+                            <td></td>
+                            <td>23</td>
+                        </tr>
+                        <tr>
+                            <td>Condition of glass(screen/window)</td>
+                            <td></td>
+                            <td>23</td>
+                        </tr>
+                        <tr>
+                            <td>Screen wipers and washers</td>
+                            <td></td>
+                            <td>25</td>
+                        </tr>
+                        <tr>
+                            <td>Speedometer/tachogrpah - operation-seals</td>
+                            <td></td>
+                            <td>26</td>
+                        </tr>
+                        <tr>
+                            <td>Engine tachometer</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Audible Warning - horn</td>
+                            <td></td>
+                            <td>27</td>
+                        </tr>
+                        <tr>
+                            <td>Driving Controls</td>
+                            <td></td>
+                            <td>28</td>
+                        </tr>
+                        <tr>
+                            <td>Steering wheel - free play</td>
+                            <td></td>
+                            <td>30</td>
+                        </tr>
+                        <tr>
+                            <td>Steering wheel - security-condition</td>
+                            <td></td>
+                            <td>30</td>
+                        </tr>
+                        <tr>
+                            <td>Steering column</td>
+                            <td></td>
+                            <td>30</td>
+                        </tr>
+                        <tr>
+                            <td>Anti-theft locks</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Pressure/vacuum - warning</td>
+                            <td></td>
+                            <td>34</td>
+                        </tr>
+                        <tr>
+                            <td>Pressure/vacuum - build up</td>
+                            <td></td>
+                            <td>34</td>
+                        </tr>
+                        <tr>
+                            <td>Other guages - warning devices</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Hand lever, controlling mechanical brake system</td>
+                            <td></td>
+                            <td>36</td>
+                        </tr>
+                        <tr>
+                            <td>Service brake pedal</td>
+                            <td></td>
+                            <td>37</td>
+                        </tr>
+                        <tr>
+                            <td>Service brake operational/anti-lock warning</td>
+                            <td></td>
+                            <td>38</td>
+                        </tr>
+                        <tr>
+                            <td>Hand operated brake control valves</td>
+                            <td></td>
+                            <td>39</td>
+                        </tr>
+                        <tr>
+                            <td>Electrical wiring/equipment/switches</td>
+                            <td></td>
+                            <td>42</td>
+                        </tr>
+                        <tr>
+                            <td>Front fog and aux lamp switches </td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Panel/interior lamps and switches</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Cab heater/demister/air conditioning</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <table class=" table-border w-100 mt-1">
+                    <thead>
+                        <tr>
+                            <th>CAB EXTERIOR </th>
+                            <th>MC</th>
+                            <th>IM NO</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Bumper(front)</td>
+                            <td></td>
+                            <td>9</td>
+                        </tr>
+                        <tr>
+                            <td>Condition of wings/spray suppression(front)</td>
+                            <td></td>
+                            <td>14</td>
+                        </tr>
+                        <tr>
+                            <td>Cab panels, trim and heated mirrors</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Cab security including tilt warning</td>
+                            <td></td>
+                            <td>15</td>
+                        </tr>
+                        <tr>
+                            <td>Cab doors including hinges, locks</td>
+                            <td></td>
+                            <td>16</td>
+                        </tr>
+                        <tr>
+                            <td>Cab floor and steps</td>
+                            <td></td>
+                            <td>17</td>
+                        </tr>
+                        <tr>
+                            <td>Mirros and indirect vision devices(external)</td>
+                            <td></td>
+                            <td>22</td>
+                        </tr>
+                        <tr>
+                            <td>Front lamps (side lamps) and outline markers</td>
+                            <td></td>
+                            <td>63</td>
+                        </tr>
+                        <tr>
+                            <td>Headlamps - operation-aim-adjustment-mechanisms</td>
+                            <td></td>
+                            <td>67</td>
+                        </tr>
+                        <tr>
+                            <td>Front fog lamps,spot lamps,dim dip device</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <!-- Engine Compartment -->
+                <table class="table-border w-100 mt-1">
+                    <thead>
+                        <tr>
+                            <th>ENGINE COMPARTMENT</th>
+                            <th>MC</th>
+                            <th>IM NO</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Engine mountings</td>
+                            <td></td>
+                            <td>43</td>
+                        </tr>
+                        <tr>
+                            <td>Oil leaks</td>
+                            <td></td>
+                            <td>44</td>
+                        </tr>
+                        <tr>
+                            <td>Fuel tanks and systems</td>
+                            <td></td>
+                            <td>45</td>
+                        </tr>
+                        <tr>
+                            <td>Exhaust systems</td>
+                            <td></td>
+                            <td>46</td>
+                        </tr>
+                        <tr>
+                            <td>Exhaust brake</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Radiator mounting</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Cooling system</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Fan, generator. aux belts</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Fuel pump linkage seals and EDC equipment</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Speed limiter - condition-seals-linkage</td>
+                            <td></td>
+                            <td>33</td>
+                        </tr>
+                        <tr>
+                            <td>Injectors,pipes,filters</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Air intake system - Turbocharger intercooler and filters</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Air compressor - Exhauster - drive belts(if applicable)</td>
+                            <td></td>
+                            <td>59</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <table class="table-border w-100 mt-1">
+                    <thead>
+                        <tr>
+                            <th>TYRES</th>
+                            <th>MC</th>
+                            <th>IM NO</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Size and types of tyres</td>
+                            <td></td>
+                            <td>7</td>
+                        </tr>
+                        <tr class="border-bottom">
+                            <td>Condition of tyres</td>
+                            <td></td>
+                            <td>8</td>
+                        </tr>
+                        <tr>
+                            <td colspan="3" class="text-center">(strike out/amend boxes)</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <h5 class="m-0">TREAD WEAR</h5>
+                            </td>
+                            <td class="border-none" rowspan="4">
+                                <div class="d-flex justify-content-center align-items-end">
+                                    <div class="tyres-blocks1"></div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <div class="d-flex justify-content-end align-items-center">
+                                    <div class="tyres-blocks"></div>
+                                    <div class="tyres-blocks"></div>
+                                    <div class="tyres-blocks"></div>
+                                    <div class="tyres-blocks"></div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>State -<br />tread depth <br />left in mm </td>
+                            <td class="border-none">
+                                <div class="d-flex justify-content-end align-items-center">
+                                    <div class="tyres-blocks"></div>
+                                    <div class="tyres-blocks"></div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="border-none" colspan="2">
+                                <div class="d-flex justify-content-end align-items-center">
+                                    <div class="tyres-blocks"></div>
+                                    <div class="tyres-blocks"></div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <div class="d-flex justify-content-end align-items-center">
+                                    <div class="tyres-blocks"></div>
+                                    <div class="tyres-blocks"></div>
+                                    <div class="tyres-blocks"></div>
+                                    <div class="tyres-blocks"></div>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+
+
+            </div>
+            <div class="w-100">
+                <table class="table-border w-100">
+                    <thead>
+                        <tr>
+                            <th>Ground Level</th>
+                            <th>MC</th>
+                            <th>IM NO</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Road wheels and hubs </td>
+                            <td></td>
+                            <td>6</td>
+                        </tr>
+                        <tr>
+                            <td>Sideguards and rear underrun guards</td>
+                            <td></td>
+                            <td>9</td>
+                        </tr>
+                        <tr>
+                            <td>Spare wheel carrier(and spare wheel)</td>
+                            <td></td>
+                            <td>10</td>
+                        </tr>
+                        <tr>
+                            <td>Vehicle to trailer coupling</td>
+                            <td></td>
+                            <td>11</td>
+                        </tr>
+                        <tr>
+                            <td>Condition of wings/spray suppression(rear)</td>
+                            <td></td>
+                            <td>14</td>
+                        </tr>
+                        <tr>
+                            <td>Security/condition of body</td>
+                            <td></td>
+                            <td>19/20</td>
+                        </tr>
+                        <tr>
+                            <td>Demountable bodies - chasis mounted equipment</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Security of body,containers and crane support legs</td>
+                            <td></td>
+                            <td>19</td>
+                        </tr>
+                        <tr>
+                            <td>Tipping gear - hydraulic rams,pivots and safety devices</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Tailboard hoists</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Cranes,gantries</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Other ancillary equipment</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <!-- Under Alongside Vehicle -->
+
+                <table class="table-border w-100 mt-3">
+                    <thead>
+                        <tr>
+                            <th>UNDER/ALONGSIDE VEHICLE</th>
+                            <th>MC</th>
+                            <th>IM NO</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Chasis - condition</td>
+                            <td></td>
+                            <td>41</td>
+                        </tr>
+                        <tr>
+                            <td>Electrical wiring and equipment including batteries</td>
+                            <td></td>
+                            <td>42</td>
+                        </tr>
+                        <tr>
+                            <td>Electrical connections for trailer</td>
+                            <td></td>
+                            <td>42</td>
+                        </tr>
+                        <tr>
+                            <td>Oil leaks</td>
+                            <td></td>
+                            <td>44</td>
+                        </tr>
+                        <tr>
+                            <td>Fuel tanks and systems</td>
+                            <td></td>
+                            <td>45</td>
+                        </tr>
+                        <tr>
+                            <td>Exhaust system</td>
+                            <td></td>
+                            <td>46</td>
+                        </tr>
+                        <tr>
+                            <td>Suspension pins and bushes - condition</td>
+                            <td></td>
+                            <td>48</td>
+                        </tr>
+                        <tr>
+                            <td>Suspension units,linkages and sub-frames - security</td>
+                            <td></td>
+                            <td>48</td>
+                        </tr>
+                        <tr>
+                            <td>Shock absorbers</td>
+                            <td></td>
+                            <td>48</td>
+                        </tr>
+                        <tr>
+                            <td>Wheel bearing and seal(rear)</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Stub axels and wheel bearings</td>
+                            <td></td>
+                            <td>53</td>
+                        </tr>
+                        <tr>
+                            <td>Steering mechanism</td>
+                            <td></td>
+                            <td>54</td>
+                        </tr>
+                        <tr>
+                            <td>Steering alignment</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Steering gear</td>
+                            <td></td>
+                            <td>54</td>
+                        </tr>
+                        <tr>
+                            <td>Power steering and fluid level</td>
+                            <td></td>
+                            <td>54</td>
+                        </tr>
+                        <tr>
+                            <td>Axel alignment</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Clutch opertaion</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Gearbox and bell housing</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Change speed mechanism</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Power Take-off</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Final drive</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>2-speed shift mechanism</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Differential lock - traction control</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Load transfer/axel lift device</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Transmission - drive line - mountings</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <span>Brakes</span>
+                            </td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Electronic braking system/electronic stability
+                                <br />
+                                <small>control system - opertaion/warning</small>
+                            </td>
+                            <td></td>
+                            <td>38</td>
+                        </tr>
+                        <tr>
+                            <td>Hydraulic fluid level</td>
+                            <td></td>
+                            <td>59</td>
+                        </tr>
+                        <tr>
+                            <td>Mechanical break components</td>
+                            <td></td>
+                            <td>59</td>
+                        </tr>
+                        <tr>
+                            <td>Drums and linings/dics and pads</td>
+                            <td></td>
+                            <td>59</td>
+                        </tr>
+                        <tr>
+                            <td>Brakes actuators and adjusters</td>
+                            <td></td>
+                            <td>59</td>
+                        </tr>
+                        <tr>
+                            <td>Brake systems and compenents</td>
+                            <td></td>
+                            <td>59</td>
+                        </tr>
+                        <tr>
+                            <td>Trailer coupling,hoses and function of self-sealing valves</td>
+                            <td></td>
+                            <td>12</td>
+                        </tr>
+                        <tr>
+                            <td>Load sensing/anti-lock system</td>
+                            <td></td>
+                            <td>59</td>
+                        </tr>
+                        <tr>
+                            <td>Air brake anti-freeze device</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Anti-lock device - opertaion/warning</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Operation of supply dump value</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Operation of multi-circuit protection</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Additional braking device</td>
+                            <td></td>
+                            <td>58</td>
+                        </tr>
+                        <tr>
+                            <td>Rear markings and conspicuity markings</td>
+                            <td></td>
+                            <td>62</td>
+                        </tr>
+                        <tr>
+                            <td>Rear lamps,outline markers and number plate lamp</td>
+                            <td></td>
+                            <td>63</td>
+                        </tr>
+                        <tr>
+                            <td>Rear fog lamps including warning devices</td>
+                            <td></td>
+                            <td>63</td>
+                        </tr>
+                        <tr>
+                            <td>Reflactors(side and rear)</td>
+                            <td></td>
+                            <td>62</td>
+                        </tr>
+                        <tr>
+                            <td>Direction/hazard indicators including warning devices</td>
+                            <td></td>
+                            <td>66</td>
+                        </tr>
+                        <tr>
+                            <td>Side marker lamps</td>
+                            <td></td>
+                            <td>63</td>
+                        </tr>
+                        <tr>
+                            <td>Stop lamps</td>
+                            <td></td>
+                            <td>63</td>
+                        </tr>
+                        <tr>
+                            <td>Reversing lamps</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Position lamps,headlamps and warning devices</td>
+                            <td></td>
+                            <td>63</td>
+                        </tr>
+                        <tr>
+                            <td>Other lamps</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Paintwork and livery - condition</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Licences</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Legal writing</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Registration plates</td>
+                            <td></td>
+                            <td>1</td>
+                        </tr>
+                        <tr>
+                            <td>Other dangerous defects</td>
+                            <td></td>
+                            <td>74</td>
+                        </tr>
+                        <tr class="border-top">
+                            <td>SMOKE EMMISSION</td>
+                            <td></td>
+                            <td>5</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div></div>
+        </div>
+
+        <!-- Part 2 Rectification -->
+
+        <div>
+            <h3 class="text-center">Part 2: RECTIFICATION</h3>
+        </div>
+        <div class="w-100 mt-3">
+            <table class="table-border w-100 rectificationTable">
+                <thead>
+                    <tr>
+                        <th>DETAILS OF FAULTS</th>
+                        <th>IM NO</th>
+                        <th>ACTION TAKEN TO RECTIFY FAULTS</th>
+                        <th>DONE BY</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1 Needing immediate attention</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>2 Less urgent - for early attention</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th colspan="2">Signature of inspector</th>
+                        <th class="text-left">
+                            I consider the above defects have been rectified satisfactorilly <br />
+                            and the vehicle
+                            is now in a safe and roadworthy condition
+                            <p class="text-left">
+                                <label>Signature</label>
+                                <input type="text" class="table-input-field" />
+                            </p>
+                            <p class="text-left">
+                                <label>Position</label>
+                                <input type="text" class="table-input-field" />
+                            </p>
+                        </th>
+                        <th>Date completed</th>
+
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Part 3: Road/Brake Test Report -->
+        <div>
+            <h3 class="text-center">Part 3:ROAD/BRAKE TEST REPORT(*Delete as appropriate)</h3>
+        </div>
+        <div class="w-100 mt-3">
+            <table class="table-border w-100 brake-testReport">
+                <tr>
+                    <td>Brake Performance IM NOS 71,72,73</td>
+                    <td>
+                        ROAD SPEED LIMITER operational YES/NO
+                        <div class="tyres-blocks d-inline" style="padding: 0px 50px;"></div>kph* mph*
+                    </td>
+                    <td class="text-center" colspan="4">Load condition of vehicle</td>
+                </tr>
+                <tr>
+                    <td>
+                        Decelerometer test*
+                        <div class="float-left">@@</div>
+                        <div class="float-right">kph* <br />mph*</div>
+                    </td>
+                    <td colspan="3">Road conditions</td>
+                    <td class="text-center">Laden*</td>
+                    <td class="text-center">Unladen*</td>
+                </tr>
+                <tr>
+                    <td>Roller brake test*</td>
+                    <td colspan="2">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div>
+                                Service
+                                <div> <span class="float-right">%</span></div>
+                            </div>
+                            <div>
+                                Secondary
+                                <div> <span class="float-right">%</span></div>
+                            </div>
+                            <div>
+                                Parking
+                                <div> <span class="float-right">%</span></div>
+                            </div>
+                        </div>
+
+                    </td>
+                    <td colspan="3">
+                        Comments
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="6">
+                        <div style="height: 100px;">
+                            <div>
+                                Road Test - Overall Comments
+                            </div>
+                            <div class="float-right bottom_0">
+                                <p class="text-left">
+                                    <label>Tester's Signature</label>
+                                    <input type="text" class="table-input-field" />
+                                </p>
+                            </div>
+                        </div>
+
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+
+        <div>
+            <p>
+                NOTE:When Servicing is carried out following inspection and rectification,
+                details should be recorded on the seperate form VC80 aavailable for the purpose.
+            </p>
+        </div>
+        <!-- Optional Table -->
+        <div>
+            <table class="table-border w-100">
+                <tr>
+                    <th class="bg-dark" colspan="2">
+                        OPTIONAL
+                    </th>
+
+                </tr>
+                <tr>
+                    <th colspan="2">
+                        Digital tachograph
+                    </th>
+                </tr>
+                <tr>
+                    <td>Data download</td>
+                    <th class="border-none">Yes/No*</th>
+                </tr>
+            </table>
+        </div>
+
+        <div class="border text-center font-weight-bold text-uppercase mt-3">
+            <p>
+                This form is produced by freight transport Association and is not part of fta vehicle inspection service
+                system
+            </p>
+        </div>
+
+        <small class="float-left mr-2 mt-1">
+            Frieght Transport Association Limited .Registered Office .Hermes House,St John's Road,Tunbridge Wells,Kent TN4 9UZ
+            .Registered in England Number 391957 .&copy;FTA 02.12.
+        </small>
+    </div>
+
+</section>

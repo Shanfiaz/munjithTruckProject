@@ -1,0 +1,221 @@
+﻿
+
+.text-right {
+    text-align: right;
+}
+
+.border-top {
+    border-top: 1px solid black;
+}
+
+.border-none {
+    border: none !important;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.w-10 {
+    width: 10%;
+}
+
+.h-10 {
+    height: 10%;
+}
+
+.w-75 {
+    width: 75%;
+}
+
+.m-auto {
+    margin: 0 auto;
+}
+
+.m-0 {
+    margin: 0;
+}
+
+.rectificationTable tr td:nth-child(even), .rectificationTable tr th:nth-child(even) {
+    text-align: center;
+}
+
+.rectificationTable td, .rectificationTable th, .brake-testReport td {
+    border: 1px solid black;
+}
+
+.rectificationTable td {
+    height: 25px;
+}
+
+.table-input-field {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #ccc;
+    width: 50%;
+}
+
+.d-inline {
+    display: inline !important;
+    width: 100%;
+}
+
+.brake-testReport {
+    border: 1px solid black;
+}
+
+.text-left {
+    text-align: left !important;
+}
+
+.ls-3 {
+    letter-spacing: 3px;
+}
+
+.bg-dark {
+    background-color: black;
+    color: white;
+}
+
+.text-white {
+    color: white;
+}
+
+.float-right {
+    float: right;
+}
+
+.float-left {
+    float: left;
+}
+
+.bottom_0 {
+    position: relative;
+    bottom: 0;
+}
+
+.p-1 {
+    padding: 10px;
+}
+
+.border-2 {
+    border: 2px solid black;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.justify-content-evenly {
+    justify-content: space-evenly;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.align-items-end {
+    align-items: end;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.w-25 {
+    width: 25%;
+}
+
+.mt-1 {
+    margin-top: 10px;
+}
+
+.mt-3 {
+    margin-top: 30px;
+}
+
+.p-1 {
+    padding: 10px;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.lh-1 {
+    line-height: 1.5;
+}
+
+.table-border {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.mr-1 {
+    margin-right: 10px;
+}
+
+table tbody tr td:nth-child(2), table tbody tr th:nth-child(2) {
+    border: 1px solid black;
+}
+
+table th {
+    border: 1px solid black;
+}
+
+.border-bottom {
+    border-bottom: 1px solid black;
+}
+
+.tyres-blocks {
+    height: 20px;
+    width: 100px;
+    margin-right: 10px;
+    border: 1px solid black;
+}
+
+.tyres-blocks1 {
+    height: 100px;
+    width: 20px;
+    border: 1px solid black;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.justify-content-end {
+    justify-content: end;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+table {
+    text-align: left;
+}
+
+.border {
+    border: 2px solid black;
+}
+
+.font-weight-bold {
+    font-weight: bold;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.mr-2 {
+    margin-right: 20px;
+}
