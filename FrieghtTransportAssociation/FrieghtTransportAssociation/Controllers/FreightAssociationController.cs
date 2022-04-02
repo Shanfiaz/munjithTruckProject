@@ -13,5 +13,13 @@ namespace FrieghtTransportAssociation.Controllers
         {
             return View();
         }
+        public ActionResult FreightAddForm()
+        {
+            return View();
+        }
+        public ActionResult FreightEditForm()
+        {
+            return View();
+        }
     }
 }
