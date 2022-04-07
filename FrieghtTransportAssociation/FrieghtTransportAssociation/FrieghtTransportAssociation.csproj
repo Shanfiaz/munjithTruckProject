@@ -2331,6 +2331,7 @@
     <Content Include="Scripts\popper-utils.js.map" />
     <Content Include="Scripts\js\.DS_Store" />
     <Content Include="Scripts\js\pages\.DS_Store" />
+    <Content Include="Views\Shared\_ReportLayout.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
