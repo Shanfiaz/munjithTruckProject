@@ -120,6 +120,7 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\AuthenticationController.cs" />
     <Compile Include="Controllers\FreightAssociationController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
@@ -129,6 +130,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\Assets\css\Style.css" />
+    <Content Include="Content\Assets\Custom\freightaddform.css" />
     <Content Include="Content\Assets\Images\fta-logo.png" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
@@ -141,6 +143,7 @@
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
+    <Content Include="Scripts\Custom\abc.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
     <Content Include="Scripts\jquery-3.4.1.slim.js" />
@@ -166,10 +169,16 @@
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\FreightAssociation\FreightAssociation.cshtml" />
+    <Content Include="Views\FreightAssociation\FreightAddForm.cshtml" />
+    <Content Include="Views\FreightAssociation\FreightEditForm.cshtml" />
+    <Content Include="Views\Authentication\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Content\Assets\Common\" />
+    <Folder Include="Content\Assets\datatables\" />
     <Folder Include="Models\" />
+    <Folder Include="Scripts\datatables\" />
     <Folder Include="Views\FrieghtAssociationForm\" />
   </ItemGroup>
   <ItemGroup>
