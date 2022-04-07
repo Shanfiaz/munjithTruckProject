@@ -16,7 +16,7 @@ namespace FrieghtTransportAssociation
             routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
-                defaults: new { controller = "FreightAssociation", action ="FreightAssociation", id = UrlParameter.Optional }
+                defaults: new { controller = "FreightAssociation", action = "FreightAddForm", id = UrlParameter.Optional }
             );
         }
     }
