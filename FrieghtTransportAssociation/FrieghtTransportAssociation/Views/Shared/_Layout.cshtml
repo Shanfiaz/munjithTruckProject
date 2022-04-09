@@ -320,8 +320,14 @@
                     </div>
                     <!-- /.container-fluid -->
                 </nav>
+
             </div>
             <!-- /Page Header -->
+     
+            <div >
+                @RenderBody()
+                <hr />
+            </div>
 
             <div class="page-right-sidebar" id="main-right-sidebar">
                 <div class="page-right-sidebar-inner">
@@ -472,35 +478,39 @@
                     </div>
                 </div>
             </div>
-            <div class="container body-content">
-                @RenderBody()
-                <hr />
-            </div>
+            @*<div class="container body-content">
+            @RenderBody()
+            <hr />
+        </div>*@
+
+
         </div>
-        <!-- /Page Content -->
-    </div>
-    <!-- /Page Container -->
-    @*Yahan sa upr upr*@
-   
-    @Scripts.Render("~/bundles/jquery")
-    @Scripts.Render("~/bundles/bootstrap")
-    @*Yahan pr ap na apni script files add krni hain jo ap krna chah ri hain for example ap na datatable implement*@
-    @* javascript *@
+                <!-- /Page Content -->
 
-    <script src="~/Content/Assets/plugins/jquery/jquery-3.1.0.min.js"></script>
-    @*<script src="~/Scripts/popper.min.js"></script>*@
-    <script src="~/Content/Assets/plugins/bootstrap/popper.min.js"></script>
-    @*<script src="~/Scripts/bootstrap.min.js"></script>*@
-    <script src="~/Content/Assets/plugins/bootstrap/js/bootstrap.min.js"></script>
-    @*<script src="~/Scripts/jquery.slimscroll.min.js"></script>*@
-    <script src="~/Content/Assets/plugins/jquery-slimscroll/jquery.slimscroll.min.js"></script>
+            </div>
+            <!-- /Page Container -->
+            @*Yahan sa upr upr*@
+          
 
-    <script src="~/Content/Assets/plugins/switchery/switchery.min.js"></script>
-    <script src="~/Content/Assets/plugins/apexcharts/dist/apexcharts.min.js"></script>
-    <script src="~/Content/Assets/plugins/chartjs/chart.min.js"></script>
-    <script src="~/Scripts/js/concept.min.js"></script>
-    <script src="~/Scripts/js/pages/dashboard_admin2.js"></script>
+            @Scripts.Render("~/bundles/jquery")
+            @Scripts.Render("~/bundles/bootstrap")
+            @*Yahan pr ap na apni script files add krni hain jo ap krna chah ri hain for example ap na datatable implement*@
+            @* javascript *@
 
-    @RenderSection("scripts", required: false)
+            <script src="~/Content/Assets/plugins/jquery/jquery-3.1.0.min.js"></script>
+            @*<script src="~/Scripts/popper.min.js"></script>*@
+            <script src="~/Content/Assets/plugins/bootstrap/popper.min.js"></script>
+            @*<script src="~/Scripts/bootstrap.min.js"></script>*@
+            <script src="~/Content/Assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+            @*<script src="~/Scripts/jquery.slimscroll.min.js"></script>*@
+            <script src="~/Content/Assets/plugins/jquery-slimscroll/jquery.slimscroll.min.js"></script>
+
+            <script src="~/Content/Assets/plugins/switchery/switchery.min.js"></script>
+            <script src="~/Content/Assets/plugins/apexcharts/dist/apexcharts.min.js"></script>
+            <script src="~/Content/Assets/plugins/chartjs/chart.min.js"></script>
+            <script src="~/Scripts/js/concept.min.js"></script>
+            <script src="~/Scripts/js/pages/dashboard_admin2.js"></script>
+
+            @RenderSection("scripts", required: false)
 </body>
 </html>

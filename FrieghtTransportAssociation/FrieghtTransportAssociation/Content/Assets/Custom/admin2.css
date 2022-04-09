@@ -677,3 +677,15 @@ body:not(.collapsed-sidebar) .secondary-sidebar-menu ul li li a:hover {
 .popular-product-list {
     margin-top: 5px;
 }
+
+.submit-button {
+    display: flex;
+    justify-content: flex-end;
+    border-color: 2px solid red;
+}
+
+.labelpara {
+    font-size: 13px;
+    font-weight: bold;
+    /* color: #333; */
+}
