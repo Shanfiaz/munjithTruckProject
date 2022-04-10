@@ -11,7 +11,7 @@
     <div id="main-wrapper">
         <div class="content-header">
             <nav aria-label="breadcrumb">
-                <ul class="nav nav-pills" id="myTab">
+                <ul class="nav" id="myTab">
                     <li class="nav-item">
                         <a href="#insidecab"
                            class="nav-link active"
@@ -52,6 +52,18 @@
                            class="nav-link"
                            role="tab"
                            data-toggle="tab">TREAD WEAR</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#rectification"
+                           class="nav-link"
+                           role="tab"
+                           data-toggle="tab">RECTIFICATION</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#testreport"
+                           class="nav-link"
+                           role="tab"
+                           data-toggle="tab">ROAD/BRAKE TEST REPORT</a>
                     </li>
                 </ul>
             </nav>
@@ -4419,6 +4431,210 @@
                 </div>
 
                 <!--teadwear end-->
+                <!--Part 2 rectification start-->
+
+                <div class="tab-pane fade" id="rectification">
+                    <div class="row">
+                        <div class="col-lg">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="form-row">
+
+                                        <div class="col-md-3 mb-3">
+                                            <div class="form-group">
+                                                <label for="size" class="labelpara">
+                                                    DETAILS OF FAULTS
+                                                </label>
+
+                                                <select class="form-control custom-select"
+                                                        id="size">
+                                                    <option>Needing immediate attention</option>
+                                                    <option>Less urgent - for early attention</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3 mb-3">
+                                            <div class="form-group">
+                                                <label for="rectify" class="labelpara">ACTION TAKEN TO RECTIFY FAULTS</label>
+
+                                                <input type="text"
+                                                       class="form-control"
+                                                       id="rectify" />
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3 mb-3">
+                                            <div class="form-group">
+                                                <label for="doneby" class="labelpara">DONE BY</label>
+
+                                                <input type="text"
+                                                       class="form-control"
+                                                       id="doneby" />
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-3 mb-3">
+                                            <div class="form-group">
+                                                <label for="date" class="labelpara">DATE</label>
+
+                                                <input type="date" class="form-control" id="date" />
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="submit-button">
+                                        <button type="submit"
+                                                class="btn btn-primary"
+                                                value="Submit">
+                                            Submit
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--part 2 rectification end-->
+                <!--test report start-->
+
+                <div class="tab-pane fade" id="testreport">
+                    <div class="row">
+                        <div class="col-lg">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="form-row">
+                                        <div class="col-md-4 mb-3">
+                                            <div class="form-group">
+                                                <label for="size" class="labelpara">
+                                                    ROAD SPEED LIMITER operational
+                                                </label>
+
+                                                <select class="form-control custom-select"
+                                                        id="size">
+                                                    <option>Yes</option>
+                                                    <option>No</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 mb-3">
+                                            <div class="form-group">
+                                                <label for="size" class="labelpara">
+                                                    Load condition of vehicle
+                                                </label>
+
+                                                <select class="form-control custom-select"
+                                                        id="size">
+                                                    <option>Laden</option>
+                                                    <option>UnLaden</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 mb-3">
+                                            <div class="form-group">
+                                                <label for="condition" class="labelpara">Decelerometer test*</label>
+
+                                                <input type="text"
+                                                       class="form-control"
+                                                       id="condition" />
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-4 mb-3">
+                                            <div class="form-group">
+                                                <label for="roadcondition" class="labelpara">Road conditions</label>
+
+                                                <input type="text"
+                                                       class="form-control"
+                                                       id="roadcondition" />
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-4 mb-3">
+                                            <div class="form-group">
+                                                <label for="roller" class="labelpara">Roller brake test*</label>
+
+                                                <input type="text"
+                                                       class="form-control"
+                                                       id="roller" />
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-4 mb-3">
+                                            <div class="form-group">
+                                                <label for="service" class="labelpara">
+                                                    Service
+                                                </label>
+                                                <input type="number"
+                                                       class="form-control"
+                                                       id="service"
+                                                       min="1" />
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 mb-3">
+                                            <div class="form-group">
+                                                <label for="secondary" class="labelpara">
+                                                    Secondary
+                                                </label>
+                                                <input type="number"
+                                                       class="form-control"
+                                                       id="secondary"
+                                                       min="1" />
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-4 mb-3">
+                                            <div class="form-group">
+                                                <label for="parking" class="labelpara">
+                                                    Parking
+                                                </label>
+                                                <input type="number"
+                                                       class="form-control"
+                                                       id="parking"
+                                                       min="1" />
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3 mb-3">
+                                            <div class="form-group">
+                                                <label for="comments" class="labelpara">Comments</label>
+
+                                                <input type="text"
+                                                       class="form-control"
+                                                       id="comments" />
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3 mb-3">
+                                            <div class="form-group">
+                                                <label for="testcomments" class="labelpara">Overall test Comments</label>
+
+                                                <input type="text"
+                                                       class="form-control"
+                                                       id="testcomments" />
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3 mb-3">
+                                            <div class="form-group">
+                                                <label for="signature" class="labelpara">Tester's Signature</label>
+
+                                                <input type="text"
+                                                       class="form-control"
+                                                       id="signature" />
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="submit-button">
+                                        <button type="submit"
+                                                class="btn btn-primary"
+                                                value="Submit">
+                                            Submit
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--test report end-->
                 @*<div class="tab-pane fade" id="messages">
             <h4 class="mt-2">Messages tab content</h4>
             <p>

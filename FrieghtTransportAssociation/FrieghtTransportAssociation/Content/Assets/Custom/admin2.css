@@ -522,8 +522,12 @@ body:not(.collapsed-sidebar) .secondary-sidebar-menu ul li li a:hover {
 
 .nav li a.active,
 .nav li a:hover {
-    color: #59968A;
+    /*color: #59968A;*/
+    color: #ffffff;
+    background: #59968A;
 }
+
+
 
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
@@ -576,7 +580,7 @@ body:not(.collapsed-sidebar) .secondary-sidebar-menu ul li li a:hover {
 
 
 .custom-range:focus::-webkit-slider-thumb,
-.custom-range:focus::-moz-range-thumb,
+/*.custom-range:focus::-moz-range-thumb,*/
 .custom-range:focus::-ms-thumb {
   box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgba(89, 150, 138, 0.25);
 }
@@ -589,13 +593,13 @@ body:not(.collapsed-sidebar) .secondary-sidebar-menu ul li li a:hover {
   background-color: #c2fff3;
 }
 
-.custom-range::-moz-range-thumb {
+/*.custom-range::-moz-range-thumb {
   background-color: #59968A;
 }
 
 .custom-range::-moz-range-thumb:active {
   background-color: #c2fff3;
-}
+}*/
 
 .custom-range::-ms-thumb {
   background-color: #59968A;
@@ -681,7 +685,7 @@ body:not(.collapsed-sidebar) .secondary-sidebar-menu ul li li a:hover {
 .submit-button {
     display: flex;
     justify-content: flex-end;
-    border-color: 2px solid red;
+
 }
 
 .labelpara {
