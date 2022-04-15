@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.32002.261
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrieghtTransportAssociation", "FrieghtTransportAssociation\FrieghtTransportAssociation.csproj", "{C59D18D5-15BD-45CE-BBF1-86F252B534B2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FREIGHT.REPOSITORY", "FREIGHT.REPOSITORY\FREIGHT.REPOSITORY.csproj", "{AACE5E94-2D90-4968-9D8B-DD08AE537FAD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FREIGHT.COMMON", "FREIGHT.COMMON\FREIGHT.COMMON.csproj", "{F8EE6C6C-B79A-4117-8B05-65A177AEBCE6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{C59D18D5-15BD-45CE-BBF1-86F252B534B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C59D18D5-15BD-45CE-BBF1-86F252B534B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C59D18D5-15BD-45CE-BBF1-86F252B534B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AACE5E94-2D90-4968-9D8B-DD08AE537FAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AACE5E94-2D90-4968-9D8B-DD08AE537FAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AACE5E94-2D90-4968-9D8B-DD08AE537FAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AACE5E94-2D90-4968-9D8B-DD08AE537FAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8EE6C6C-B79A-4117-8B05-65A177AEBCE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8EE6C6C-B79A-4117-8B05-65A177AEBCE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8EE6C6C-B79A-4117-8B05-65A177AEBCE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8EE6C6C-B79A-4117-8B05-65A177AEBCE6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

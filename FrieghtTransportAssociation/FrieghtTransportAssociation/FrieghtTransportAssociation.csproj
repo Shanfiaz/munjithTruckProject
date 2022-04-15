@@ -2359,6 +2359,16 @@
   <ItemGroup>
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\FREIGHT.COMMON\FREIGHT.COMMON.csproj">
+      <Project>{f8ee6c6c-b79a-4117-8b05-65a177aebce6}</Project>
+      <Name>FREIGHT.COMMON</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FREIGHT.REPOSITORY\FREIGHT.REPOSITORY.csproj">
+      <Project>{aace5e94-2d90-4968-9d8b-dd08ae537fad}</Project>
+      <Name>FREIGHT.REPOSITORY</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
