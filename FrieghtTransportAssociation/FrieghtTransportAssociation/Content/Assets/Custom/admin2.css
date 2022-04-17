@@ -693,3 +693,30 @@ body:not(.collapsed-sidebar) .secondary-sidebar-menu ul li li a:hover {
     font-weight: bold;
     /* color: #333; */
 }
+
+
+.custom-control {
+    /* position: relative; */
+    display: flex;
+    justify-content: space-between;
+}
+.formicons {
+    display: flex;
+    /* width: 400px; */
+    justify-content: flex-end;
+    border: 2px solid red
+}
+
+   
+
+        .formicons ul li {
+            padding-left: 20px;
+        }
+
+
+            .formicons ul li a i {
+                font-size: 16px;
+                width: 25px;
+                display: inline-block;
+                vertical-align: text-bottom;
+            }

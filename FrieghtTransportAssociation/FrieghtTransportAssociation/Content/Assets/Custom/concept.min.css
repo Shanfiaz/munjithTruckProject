@@ -1999,13 +1999,16 @@ body.modal-open {
     border-radius: 6px;
     box-shadow: none;
     border-color: #e5e9ec;
+
+   
     color: #646464;
     padding: 10px 12px;
     height: auto;
 }
 
     .form-control:focus {
-        border-color: #d0d5d9;
+        /*border-color: #d0d5d9;*/
+        border-color: #acaeb1;
         box-shadow: none;
     }
 
@@ -4387,7 +4390,7 @@ _:future,
     left: 50%;
     top: 0;
     bottom: 0;
-    text-align: right;
+    /* text-align: right; */
 }
 
 .login-box {
@@ -4410,6 +4413,7 @@ _:future,
     .login-box .login-header {
         display: block;
         clear: both;
+        text-align: left;
     }
 
         .login-box .login-header h3 {
@@ -4417,6 +4421,7 @@ _:future,
             color: #694ffc;
             font-weight: 700;
             margin-bottom: 20px;
+            text-align: left;
         }
 
         .login-box .login-header p {
@@ -5622,3 +5627,10 @@ pre.prettyprint {
         font-weight: 700;
         font-size: 12px;
     }
+
+.formicons {
+    display: flex;
+    /* width: 400px; */
+    justify-content: flex-end;
+    border: 2px solid red
+}

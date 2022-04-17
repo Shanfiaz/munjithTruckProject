@@ -2302,7 +2302,7 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\FreightAssociation\FreightAssociation.cshtml" />
     <Content Include="Views\FreightAssociation\FreightAddForm.cshtml" />
-    <Content Include="Views\FreightAssociation\FreightEditForm.cshtml" />
+    <Content Include="Views\FreightAssociation\FreightEditUserForm.cshtml" />
     <Content Include="Views\Authentication\Index.cshtml" />
     <Content Include="webfonts\fa-brands-400.svg" />
     <Content Include="webfonts\fa-regular-400.svg" />
@@ -2332,6 +2332,9 @@
     <Content Include="Scripts\js\.DS_Store" />
     <Content Include="Scripts\js\pages\.DS_Store" />
     <Content Include="Views\Shared\_ReportLayout.cshtml" />
+    <Content Include="Views\FreightAssociation\FreightUserListingForm.cshtml" />
+    <Content Include="Views\FreightAssociation\FreightUserInfoForm.cshtml" />
+    <Content Include="Views\FreightAssociation\LogInForm.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
