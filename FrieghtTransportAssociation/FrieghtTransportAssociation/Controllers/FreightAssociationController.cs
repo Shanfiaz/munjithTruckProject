@@ -17,9 +17,28 @@ namespace FrieghtTransportAssociation.Controllers
         {
             return View();
         }
-        public ActionResult FreightEditForm()
+
+
+        public ActionResult LogInForm()
         {
             return View();
         }
+        public ActionResult FreightEditUserForm()
+        {
+            return View();
+        }
+
+        public ActionResult FreightUserListingForm()
+        {
+            return View();
+        }
+
+        public ActionResult FreightUserInfoForm()
+        {
+            return View();
+        }
+
+
+    
     }
 }

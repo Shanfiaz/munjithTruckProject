@@ -1,3 +1,5 @@
+
+
 body,
 html {
     font-size: 13px;
@@ -1701,7 +1703,7 @@ body.modal-open {
 }
 
 .nav li a {
-    color: #59968A;
+    color: #596b8c;
 }
 
     .nav li a.active,
@@ -1779,18 +1781,13 @@ body.modal-open {
 .nav-pills > li.active > a:focus,
 .nav-pills > li.active > a:hover {
     color: #fff;
-    background-color: #59968a !important;
+    background-color: #59968a;
 }
 
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
     background-color: #8014f1;
 }
-
-/*.nav-item > li.active > a:hover {
-    background-color: #8014f1;
-}*/
-
 
 .tabs-below > .nav-tabs,
 .tabs-left > .nav-tabs,
@@ -1999,6 +1996,7 @@ body.modal-open {
     border-radius: 6px;
     box-shadow: none;
     border-color: #e5e9ec;
+    /* border-color: rgb(160, 56, 56); */
     color: #646464;
     padding: 10px 12px;
     height: auto;
@@ -2058,9 +2056,9 @@ small.form-text {
     box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgba(127, 20, 241, 0.25);
 }
 
-/*.custom-range:focus::-moz-range-thumb {
+.custom-range:focus::-moz-range-thumb {
     box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgba(127, 20, 241, 0.25);
-}*/
+}
 
 .custom-range:focus::-ms-thumb {
     box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgba(127, 20, 241, 0.25);
@@ -2074,13 +2072,13 @@ small.form-text {
         background-color: #e3cdfa;
     }
 
-/*.custom-range::-moz-range-thumb {
+.custom-range::-moz-range-thumb {
     background-color: #8014f1;
 }
 
     .custom-range::-moz-range-thumb:active {
         background-color: #e3cdfa;
-    }*/
+    }
 
 .custom-range::-ms-thumb {
     background-color: #8014f1;
@@ -2504,8 +2502,8 @@ table.dataTable.stripe tbody tr.odd {
     border: 1px solid #e5e9ec;
     -webkit-border-radius: 0 !important;
     -moz-border-radius: 0 !important;
-   /* -ms-border-radius: 0 !important;
-    -o-border-radius: 0 !important;*/
+    -ms-border-radius: 0 !important;
+    -o-border-radius: 0 !important;
     -webkit-box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.1);
     -moz-box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.1);
     box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.1);
@@ -2660,7 +2658,7 @@ table.dataTable.stripe tbody tr.odd {
     -moz-transition: all 0.3s ease;
     -webkit-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
-    /*-ms-transition: all 0.3s ease;*/
+    -ms-transition: all 0.3s ease;
     margin-top: 40px !important;
 }
 
@@ -3082,8 +3080,7 @@ table.dataTable.stripe tbody tr.odd {
 }
 
     .active-page.show > a i {
-        /*color: #2ec5d3;*/
-        color: #59968A;
+        color: #2ec5d3;
     }
 
 .navbar-default .navbar-nav > .show > a,
@@ -3217,8 +3214,7 @@ table.dataTable.stripe tbody tr.odd {
     .right-sidebar-tabs .nav > li > a:focus,
     .right-sidebar-tabs .nav > li > a:hover {
         text-decoration: none;
-        /* background-color: #fff;*/
-        background-color: #59968A;
+        background-color: #fff;
     }
 
 .chat-list .chat-item {
@@ -4210,11 +4206,11 @@ body.settings-visible .settings-sidebar {
     width: calc(100% - 61px);
 }
 
-/*_::-webkit-full-page-media,
+_::-webkit-full-page-media,
 _:future,
 :root .page-content {
     vertical-align: top;
-}*/
+}
 
 .page-inner {
     position: relative;
@@ -4242,11 +4238,11 @@ _:future,
             padding-right: 30px;
         }
 
-/*_::-webkit-full-page-media,
+_::-webkit-full-page-media,
 _:future,
 :root .page-inner {
     padding-bottom: 0;
-}*/
+}
 
 .page-header-fixed .page-inner {
     margin-top: 61px;
@@ -4266,7 +4262,7 @@ _:future,
 
 .image-crop img {
     width: 100%;
-    height: 100px;
+    height: 100;
 }
 
 .crop-img-text {
@@ -4387,7 +4383,7 @@ _:future,
     left: 50%;
     top: 0;
     bottom: 0;
-    text-align: right;
+    /* text-align: right; */
 }
 
 .login-box {
@@ -4400,8 +4396,8 @@ _:future,
 }
 
     .login-box .login-body {
-        width: 50%;
-        float: right;
+        /* width: 50%; */
+        /* float: right; */
         margin-bottom: 10px;
     }
 
@@ -5622,3 +5618,34 @@ pre.prettyprint {
         font-weight: 700;
         font-size: 12px;
     }
+.formicons {
+    display: flex;
+    /* width: 400px; */
+    justify-content: flex-end;
+}
+
+    .formicons ul {
+        display: flex;
+        justify-content: space-between
+    }
+
+        .formicons ul li {
+            padding-left: 20px;
+        }
+
+         
+
+            .formicons ul li a i {
+                font-size: 16px;
+                width: 25px;
+                display: inline-block;
+                vertical-align: text-bottom;
+            }
+
+
+.add-button {
+  
+        display:flex;
+        justify-content:flex-end;
+        margin-top: 30px
+}   

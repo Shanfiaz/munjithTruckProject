@@ -123,8 +123,10 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\AuthenticationController.cs" />
+    <Compile Include="Controllers\CustomerManagementController.cs" />
     <Compile Include="Controllers\FreightAssociationController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\UserManagmentController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -2302,7 +2304,6 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\FreightAssociation\FreightAssociation.cshtml" />
     <Content Include="Views\FreightAssociation\FreightAddForm.cshtml" />
-    <Content Include="Views\FreightAssociation\FreightEditForm.cshtml" />
     <Content Include="Views\Authentication\Index.cshtml" />
     <Content Include="webfonts\fa-brands-400.svg" />
     <Content Include="webfonts\fa-regular-400.svg" />
@@ -2332,6 +2333,12 @@
     <Content Include="Scripts\js\.DS_Store" />
     <Content Include="Scripts\js\pages\.DS_Store" />
     <Content Include="Views\Shared\_ReportLayout.cshtml" />
+    <Content Include="Views\UserManagment\Index.cshtml" />
+    <Content Include="Views\UserManagment\AddUser.cshtml" />
+    <Content Include="Views\UserManagment\EditUser.cshtml" />
+    <Content Include="Views\CustomerManagement\Index.cshtml" />
+    <Content Include="Views\CustomerManagement\AddCustomer.cshtml" />
+    <Content Include="Views\CustomerManagement\EditCustomer.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
