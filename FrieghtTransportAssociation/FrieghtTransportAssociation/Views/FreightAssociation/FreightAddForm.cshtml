@@ -3,9 +3,6 @@
     ViewBag.Title = "FreightAddForm";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
-
-@*Tabs Include krnay hain takay her tab ek category ko deine kr raha hi*@
-
 <!-- Page Inner -->
 <div class="page-inner no-page-title">
     <div id="main-wrapper">
@@ -4440,7 +4437,7 @@
                                 <div class="card-body">
                                     <div class="form-row">
 
-                                        <div class="col-md-2 mb-3">
+                                        <div class="col-md-3 mb-3">
                                             <div class="form-group">
                                                 <label for="size" class="labelpara">
                                                     DETAILS OF FAULTS
@@ -4453,7 +4450,7 @@
                                                 </select>
                                             </div>
                                         </div>
-                                        <div class="col-md-2 mb-3">
+                                        <div class="col-md-3 mb-3">
                                             <div class="form-group">
                                                 <label for="rectify" class="labelpara">ACTION TAKEN TO RECTIFY FAULTS</label>
 
@@ -4462,7 +4459,7 @@
                                                        id="rectify" />
                                             </div>
                                         </div>
-                                        <div class="col-md-2 mb-3">
+                                        <div class="col-md-3 mb-3">
                                             <div class="form-group">
                                                 <label for="doneby" class="labelpara">DONE BY</label>
 
@@ -4477,6 +4474,16 @@
                                                 <label for="date" class="labelpara">DATE</label>
 
                                                 <input type="date" class="form-control" id="date" />
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-1 mb-3">
+                                            <div class="add-button">
+                                                <button type="submit"
+                                                        class="btn btn-primary"
+                                                        value="Add">
+                                                   Add
+                                                </button>
                                             </div>
                                         </div>
                                     </div>
@@ -4635,7 +4642,7 @@
                 </div>
 
                 <!--test report end-->
-               
+
             </div>
         </div>
     </div>

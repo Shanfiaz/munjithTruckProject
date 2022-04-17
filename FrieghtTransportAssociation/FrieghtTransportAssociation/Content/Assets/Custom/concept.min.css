@@ -5618,3 +5618,34 @@ pre.prettyprint {
         font-weight: 700;
         font-size: 12px;
     }
+.formicons {
+    display: flex;
+    /* width: 400px; */
+    justify-content: flex-end;
+}
+
+    .formicons ul {
+        display: flex;
+        justify-content: space-between
+    }
+
+        .formicons ul li {
+            padding-left: 20px;
+        }
+
+         
+
+            .formicons ul li a i {
+                font-size: 16px;
+                width: 25px;
+                display: inline-block;
+                vertical-align: text-bottom;
+            }
+
+
+.add-button {
+  
+        display:flex;
+        justify-content:flex-end;
+        margin-top: 30px
+}   
