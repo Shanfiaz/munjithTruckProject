@@ -3,79 +3,55 @@
     ViewBag.Title = "FreightUserListingForm";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
+<!-- Page Inner -->
 <div class="page-inner no-page-title">
     <div id="main-wrapper">
-        <div class="content-header">
+        <!--table start-->
+        <div class="row">
+            <div class="col-xl">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Users</h5>
 
-
-            <!--table start-->
-
-            <div class="row">
-                <div class="col-xl">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">Users</h5>
-
-                            <table class="table">
-                                <thead>
-                                    <tr>
-                                        <th scope="col">#</th>
-                                        <th scope="col">Name</th>
-                                        <th scope="col">Username</th>
-                                        <th scope="col">Email Address</th>
-                                        <th scope="col">Phone Number</th>
-                                        <th scope="col">User Role</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <th scope="row">1</th>
-                                        <td>Zeeshan</td>
-                                        <td>Zeeshu</td>
-                                        <td>zeeshu@gmail.com</td>
-                                        <td>01234576878</td>
-                                        <td>admin</td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">2</th>
-                                        <td>Zeeshan</td>
-                                        <td>Zeeshu</td>
-                                        <td>zeeshu@gmail.com</td>
-                                        <td>01234576878</td>
-                                        <td>admin</td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">3</th>
-                                        <td>Zeeshan</td>
-                                        <td>Zeeshu</td>
-                                        <td>zeeshu@gmail.com</td>
-                                        <td>01234576878</td>
-                                        <td>admin</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                        <div class="formicons">
-                            <ul class="list-unstyled">
-                                <li>
-                                    <a href="#"><i class="icon-delete"></i>Trash</a>
-                                </li>
-                                <li>
-                                    <a href="#"> <i class="fas fa-edit"></i>Edit</a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <i class="fas fa-eye-slash"></i>Show password
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
+                        <table class="display" id="usertable">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Name</th>
+                                    <th scope="col">Username</th>
+                                    <th scope="col">Email Address</th>
+                                    <th scope="col">Phone Number</th>
+                                    <th scope="col">User Role</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Zeeshan</td>
+                                    <td>Zeeshu</td>
+                                    <td>zeeshu@gmail.com</td>
+                                    <td>01234576878</td>
+                                    <td>admin</td>
+                                </tr>
+                                <tr>
+                                    <td>eeshan</td>
+                                    <td>eeshu</td>
+                                    <td>eeshu@gmail.com</td>
+                                    <td>0123476878</td>
+                                    <td>admin</td>
+                                </tr>
+                                <tr>
+                                    <td>peeshan</td>
+                                    <td>eeshu</td>
+                                    <td>eeshu@gmail.com</td>
+                                    <td>0123457678</td>
+                                    <td>manager</td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </div>
                 </div>
             </div>
-            <!--table end-->
-           
-            <!--content header end next line-->
         </div>
     </div>
+    <!-- Main Wrapper -->
 </div>
+<!-- /Page Inner -->
