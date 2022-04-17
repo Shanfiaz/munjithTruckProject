@@ -159,6 +159,11 @@
     <Content Include="Content\Assets\Images\profile-bg.jpeg" />
     <Content Include="Content\Assets\Images\profile_admin2.png" />
     <Content Include="Content\Assets\Images\register.png" />
+    <Content Include="Content\Assets\Images\sort_asc.png" />
+    <Content Include="Content\Assets\Images\sort_asc_disabled.png" />
+    <Content Include="Content\Assets\Images\sort_both.png" />
+    <Content Include="Content\Assets\Images\sort_desc.png" />
+    <Content Include="Content\Assets\Images\sort_desc_disabled.png" />
     <Content Include="Content\Assets\plugins\apexcharts\.eslintrc.js" />
     <Content Include="Content\Assets\plugins\apexcharts\dist\apexcharts.amd.js" />
     <Content Include="Content\Assets\plugins\apexcharts\dist\apexcharts.common.js" />
