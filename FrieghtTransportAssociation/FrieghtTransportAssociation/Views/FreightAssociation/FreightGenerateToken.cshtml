@@ -1,0 +1,69 @@
+﻿
+@{
+    ViewBag.Title = "FreightGenerateToken";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>FreightGenerateToken</h2>
+
+<!-- Page Inner -->
+<div class="page-inner no-page-title">
+    <div id="main-wrapper">
+        <div class="content-header">
+            <div class="row">
+                <div class="col-xl">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Generate Token</h5>
+
+                            <form>
+                                <div class="row">
+
+
+                                    <div class="col">
+                                        <div class="form-group">
+                                            <label for="date" class="labelpara">Select Date</label>
+
+                                            <input type="date" class="form-control" id="date" />
+                                        </div>
+                                    </div>
+
+                                    <div class="col">
+                                        <div class="form-group">
+                                            <label for="size" class="labelpara">
+                                                Select Customer
+                                            </label>
+
+                                            <select class="form-control custom-select"
+                                                    id="size">
+                                                <option>select</option>
+                                                <option>customer1</option>
+                                                <option>customer2</option>
+                                            </select>
+                                        </div>
+
+                                        <div class="submit-button">
+                                            <button type="submit"
+                                                    class="btn btn-primary"
+                                                    value="token">
+                                                Generate Token
+                                            </button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+          
+
+
+
+        </div>
+
+
+    </div>
+</div>
