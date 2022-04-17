@@ -1,8 +1,63 @@
 ﻿
 @{
-    ViewBag.Title = "Index";
-    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "LogInForm";
+    Layout = null;
 }
 
-<h2>Index</h2>
+@*Styles*@
+<link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+<link href="~/Content/Assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+<link href="~/Content/Assets/plugins/font-awesome/css/all.min.css" rel="stylesheet" />
+<link href="~/Content/Assets/plugins/icomoon/style.css" rel="stylesheet" />
+@*<script src="~/Content/Assets/plugins/switchery/switchery.min.js"></script>*@
+<link href="~/Content/Assets/plugins/switchery/switchery.min.css" rel="stylesheet" />
 
+@* theme styles *@
+<link href="~/Content/Assets/Custom/concept.min.css" rel="stylesheet" />
+<link href="~/Content/Assets/Custom/admin2.css" rel="stylesheet" />
+<link href="~/Content/Assets/Custom/custom.css" rel="stylesheet" />
+
+<!-- Page Container -->
+<div class="page-container">
+    <div class="login">
+        <div class="login-bg"></div>
+        <div class="login-content">
+            <div class="login-box">
+                <div class="login-header">
+                    <h3>Login to account</h3>
+                    <p>Enter your login data</p>
+                </div>
+                <div class="login-body">
+                    <form>
+                        <div class="form-group">
+                            <input type="email"
+                                   class="form-control"
+                                   id="exampleInputEmail1"
+                                   aria-describedby="emailHelp"
+                                   placeholder="Enter email" />
+                        </div>
+                        <div class="form-group">
+                            <input type="password"
+                                   class="form-control"
+                                   id="exampleInputPassword1"
+                                   placeholder="Password" />
+                        </div>
+
+                        <div class="custom-control custom-checkbox form-group">
+                            <input type="checkbox"
+                                   class="custom-control-input"
+                                   id="exampleCheck1" />
+                            <label class="custom-control-label" for="exampleCheck1">Remember password</label>
+                            <div><a href="#">Forgot password?</a></div>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">Login</button>
+                    </form>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<!-- /Page Container -->
