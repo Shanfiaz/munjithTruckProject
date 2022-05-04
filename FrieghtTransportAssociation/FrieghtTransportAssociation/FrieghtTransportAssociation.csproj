@@ -159,6 +159,11 @@
     <Content Include="Content\Assets\Images\profile-bg.jpeg" />
     <Content Include="Content\Assets\Images\profile_admin2.png" />
     <Content Include="Content\Assets\Images\register.png" />
+    <Content Include="Content\Assets\Images\sort_asc.png" />
+    <Content Include="Content\Assets\Images\sort_asc_disabled.png" />
+    <Content Include="Content\Assets\Images\sort_both.png" />
+    <Content Include="Content\Assets\Images\sort_desc.png" />
+    <Content Include="Content\Assets\Images\sort_desc_disabled.png" />
     <Content Include="Content\Assets\plugins\apexcharts\.eslintrc.js" />
     <Content Include="Content\Assets\plugins\apexcharts\dist\apexcharts.amd.js" />
     <Content Include="Content\Assets\plugins\apexcharts\dist\apexcharts.common.js" />
@@ -458,6 +463,7 @@
     <Content Include="Content\Assets\plugins\cropper-master\cropper.js" />
     <Content Include="Content\Assets\plugins\cropper-master\cropper.min.css" />
     <Content Include="Content\Assets\plugins\cropper-master\cropper.min.js" />
+    <Content Include="Content\Assets\plugins\datatables\datatables.min.css" />
     <Content Include="Content\Assets\plugins\elevatezoom\jquery.elevatezoom-3.0.8.min.js" />
     <Content Include="Content\Assets\plugins\elevatezoom\jquery.elevatezoom.js" />
     <Content Include="Content\Assets\plugins\font-awesome\css\all.css" />
@@ -1910,6 +1916,7 @@
     <Content Include="Content\Assets\plugins\jquery-slimscroll\jquery.slimscroll.js" />
     <Content Include="Content\Assets\plugins\jquery-slimscroll\jquery.slimscroll.min.js" />
     <Content Include="Content\Assets\plugins\jquery\jquery-3.1.0.min.js" />
+    <Content Include="Content\Assets\plugins\jquery\jquery-dataTables.min.js" />
     <Content Include="Content\Assets\plugins\plupload\js\i18n\ar.js" />
     <Content Include="Content\Assets\plugins\plupload\js\i18n\az.js" />
     <Content Include="Content\Assets\plugins\plupload\js\i18n\bg.js" />
@@ -2210,6 +2217,7 @@
     <Content Include="Scripts\js\admin2.js" />
     <Content Include="Scripts\js\concept.js" />
     <Content Include="Scripts\js\concept.min.js" />
+    <Content Include="Scripts\js\datatable.min.js" />
     <Content Include="Scripts\js\pages\charts.js" />
     <Content Include="Scripts\js\pages\contacts.js" />
     <Content Include="Scripts\js\pages\dashboard.js" />
@@ -2339,12 +2347,12 @@
     <Content Include="Views\CustomerManagement\Index.cshtml" />
     <Content Include="Views\CustomerManagement\AddCustomer.cshtml" />
     <Content Include="Views\CustomerManagement\EditCustomer.cshtml" />
+    <Content Include="Views\FreightAssociation\FreightGenerateToken.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Content\Assets\Common\" />
     <Folder Include="Content\Assets\datatables\" />
-    <Folder Include="Scripts\datatables\" />
     <Folder Include="Views\FrieghtAssociationForm\" />
   </ItemGroup>
   <ItemGroup>

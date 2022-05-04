@@ -6,8 +6,8 @@
     <title>@ViewBag.Title - My ASP.NET Application</title>
     @*Styles*@
     <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
-       <link href="~/Content/Assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
-<link href="~/Content/Assets/plugins/font-awesome/css/all.min.css" rel="stylesheet" />
+    <link href="~/Content/Assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Content/Assets/plugins/font-awesome/css/all.min.css" rel="stylesheet" />
     <link href="~/Content/Assets/plugins/icomoon/style.css" rel="stylesheet" />
     @*<script src="~/Content/Assets/plugins/switchery/switchery.min.js"></script>*@
     <link href="~/Content/Assets/plugins/switchery/switchery.min.css" rel="stylesheet" />
@@ -16,7 +16,13 @@
     <link href="~/Content/Assets/Custom/admin2.css" rel="stylesheet" />
     <link href="~/Content/Assets/Custom/custom.css" rel="stylesheet" />
 
+
+    <link href="~/Content/Assets//plugins/datatables/datatables.min.css"
+          rel="stylesheet" />
+
     @*Theme*@
+
+
 
 
 </head>
@@ -119,19 +125,19 @@
                         <i class="fas fa-angle-right"></i>
                     </a>
                     @*<ul class="secondary-sidebar-profile-menu list-unstyled d-flex">
-                    <li class="flex-fill">
-                        <a href="#"><i class="fas fa-rocket"></i></a>
-                    </li>
-                    <li class="flex-fill">
-                        <a href="#"><i class="fas fa-globe-africa"></i></a>
-                    </li>
-                    <li class="flex-fill">
-                        <a href="#"><i class="fas fa-inbox"></i></a>
-                    </li>
-                    <li class="flex-fill">
-                        <a href="#"><i class="far fa-comments"></i></a>
-                    </li>
-                </ul>*@
+                            <li class="flex-fill">
+                                <a href="#"><i class="fas fa-rocket"></i></a>
+                            </li>
+                            <li class="flex-fill">
+                                <a href="#"><i class="fas fa-globe-africa"></i></a>
+                            </li>
+                            <li class="flex-fill">
+                                <a href="#"><i class="fas fa-inbox"></i></a>
+                            </li>
+                            <li class="flex-fill">
+                                <a href="#"><i class="far fa-comments"></i></a>
+                            </li>
+                        </ul>*@
                 </div>
                 <div class="secondary-sidebar-menu">
                     <button class="btn btn-block btn-primary btn-settings-toggle settings-menu-link">
@@ -190,6 +196,12 @@
                                 </li>
                             </ul>
                         </li>
+
+                        <li>
+                            <a href="/FreightAssociation/FreightGenerateToken">
+                                <span>Generate Token</span>
+                            </a>
+                            </li>
                     </ul>
                 </div>
             </div>
@@ -359,8 +371,8 @@
 
             </div>
             <!-- /Page Header -->
-     
-            <div >
+
+            <div>
                 @RenderBody()
                 <hr />
             </div>
@@ -515,38 +527,42 @@
                 </div>
             </div>
             @*<div class="container body-content">
-            @RenderBody()
-            <hr />
-        </div>*@
+                    @RenderBody()
+                    <hr />
+                </div>*@
 
 
         </div>
-                <!-- /Page Content -->
+        <!-- /Page Content -->
 
-            </div>
-            <!-- /Page Container -->
-            @*Yahan sa upr upr*@
-          
+    </div>
+    <!-- /Page Container -->
+    @*Yahan sa upr upr*@
 
-            @Scripts.Render("~/bundles/jquery")
-            @Scripts.Render("~/bundles/bootstrap")
-            @*Yahan pr ap na apni script files add krni hain jo ap krna chah ri hain for example ap na datatable implement*@
-            @* javascript *@
 
-            <script src="~/Content/Assets/plugins/jquery/jquery-3.1.0.min.js"></script>
-            @*<script src="~/Scripts/popper.min.js"></script>*@
-            <script src="~/Content/Assets/plugins/bootstrap/popper.min.js"></script>
-            @*<script src="~/Scripts/bootstrap.min.js"></script>*@
-            <script src="~/Content/Assets/plugins/bootstrap/js/bootstrap.min.js"></script>
-            @*<script src="~/Scripts/jquery.slimscroll.min.js"></script>*@
-            <script src="~/Content/Assets/plugins/jquery-slimscroll/jquery.slimscroll.min.js"></script>
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @*Yahan pr ap na apni script files add krni hain jo ap krna chah ri hain for example ap na datatable implement*@
+    @* javascript *@
 
-            <script src="~/Content/Assets/plugins/switchery/switchery.min.js"></script>
-            <script src="~/Content/Assets/plugins/apexcharts/dist/apexcharts.min.js"></script>
-            <script src="~/Content/Assets/plugins/chartjs/chart.min.js"></script>
-            <script src="~/Scripts/js/concept.min.js"></script>
-            <script src="~/Scripts/js/pages/dashboard_admin2.js"></script>
+    <script src="~/Content/Assets/plugins/jquery/jquery-3.1.0.min.js"></script>
+    @*<script src="~/Scripts/popper.min.js"></script>*@
+    <script src="~/Content/Assets/plugins/bootstrap/popper.min.js"></script>
+    @*<script src="~/Scripts/bootstrap.min.js"></script>*@
+    <script src="~/Content/Assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+    @*<script src="~/Scripts/jquery.slimscroll.min.js"></script>*@
+    <script src="~/Content/Assets/plugins/jquery-slimscroll/jquery.slimscroll.min.js"></script>
 
-            @RenderSection("scripts", required: false)
+    <script src="~/Content/Assets/plugins/switchery/switchery.min.js"></script>
+    <script src="~/Content/Assets/plugins/apexcharts/dist/apexcharts.min.js"></script>
+    <script src="~/Content/Assets/plugins/chartjs/chart.min.js"></script>
+    <script src="~/Scripts/js/concept.min.js"></script>
+    <script src="~/Scripts/js/pages/dashboard_admin2.js"></script>
+
+    <script src="~/Content/Assets/plugins/jquery/jquery-dataTables.min.js"></script>
+
+    <script src="~/Scripts//js/datatable.min.js"></script>
+
+    @RenderSection("scripts", required: false)
 </body>
 </html>
